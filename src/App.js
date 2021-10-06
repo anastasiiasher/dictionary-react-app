@@ -6,17 +6,15 @@ return (
   <div className="App">
     <div className="container">
       <header>
-        Hello
+        <h1> Dictionary App</h1>
       </header>
       <main>
         <Dictionary />
       </main>
-      <footer>
-        Coded by Anastasiia Sherstobitova
-      </footer>
+      <footer>Coded by Anastasiia Sherstobitova</footer>
     </div>
   </div>
-)
+);
 }
 
 export default App;
