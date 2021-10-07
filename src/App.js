@@ -6,7 +6,7 @@ function App() {
     <div className="App">
       <div className="container card">
         <header>
-          <h1 className="mt-5 mb-5"> Dictionary App</h1>
+          <h1 className="mt-5 mb-5"> Dictionary App </h1>
         </header>
         <main>
           <Dictionary defaultKeyword="code" />
@@ -29,6 +29,14 @@ function App() {
         >
           open-sourced on GitHub
         </a>{" "}
+        and hosted on{" "}
+        <a
+          href="https://reverent-neumann-8c5184.netlify.app"
+          rel="noreferrer"
+          target="_blank"
+        >
+          Netlify
+        </a>
       </footer>
     </div>
   );

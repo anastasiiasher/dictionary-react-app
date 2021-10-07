@@ -1,17 +1,11 @@
-.App {
-  text-align: center;
+li{
+  display: inline-block;
+  padding-right: 15px;
+  font-family:'Gaegu';
+  font-size: 25px;
+  font-weight:400;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 h1{
   font-family: 'Eagle Lake', cursive;
   color: #272e4f; 
@@ -25,28 +19,7 @@ ul{
   list-style: none;
   color: #272e4f; 
 }
-.App-header {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  color: #272e4f; 
-  padding: 30px 30px;
-}
 
-.App-link {
-  color: #61dafb;
-}
-
-.card{
-  padding-top: 10px;
-  margin-top: 30px;
-  border-radius: 4px;
-  border: 1px solid black;
-  margin-bottom: 10px;
-  max-width: 1000px;
-  box-shadow: 10px 10px 20px rgba(57, 56, 56, 0.2);
-}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -59,10 +32,7 @@ body{
   background: white;
   background-image: url(./images/marble.jpg);
 }
-.card{
-  background:white;
-  background-image: url(./images/marble.jpg);
-}
+
 footer{
   font-size: 18px;
   font-family: 'Gaegu', cursive;
@@ -96,12 +66,14 @@ h2{
   font-size: 36px;
   background: url(./images/school.jpg);
   padding: 20px 10px;
-  margin: 40px 130px;
+  margin: 10 auto;
   border-radius: 10px;
   border: 1px solid #ddd;
   box-shadow: 10px 10px 20px rgba(57, 56, 56, 0.2);
   color: #c70039 ;
-  text-transform: capitalize;
+  text-transform: capitalize; 
+  text-align: center;
+  display: inline-block;
 } h3{
   font-family: 'Homemade Apple', cursive;
   color: #272e4f; ;
@@ -112,6 +84,10 @@ a{
 }
 a:hover{
   color:#c70039;
+}
+.card{
+  background:white;
+  background-image: url(./images/marble.jpg);
 }
 .Phonetics{
  font-size: 25px;
@@ -130,10 +106,51 @@ a:hover{
   transition: all 150ms ease-in-out;
   font-size: 25px;
 }
-li{
-  display: inline-block;
-  padding-right: 15px;
-  font-family:'Gaegu';
-  font-size: 25px;
-  font-weight:400;
+.App-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #272e4f; 
+  padding: 30px 30px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.card{
+  padding-top: 10px;
+  margin-top: 30px;
+  border-radius: 4px;
+  border: 1px solid black;
+  margin-bottom: 10px;
+  max-width: 1000px;
+  box-shadow: 10px 10px 20px rgba(57, 56, 56, 0.2);
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.Photos img{
+  border-radius: 4px;
+  margin-bottom: 15px;
+  border: 5px solid white;
+}
+.magn{
+  border-radius: 50px;
+  box-shadow: 10px 10px 20px rgba(57, 56, 56, 0.2);
+}
+.type{
+  box-shadow: 10px 10px 20px rgba(57, 56, 56, 0.2);
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
 }
