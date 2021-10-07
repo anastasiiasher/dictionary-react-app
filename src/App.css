@@ -12,13 +12,25 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+h1{
+  font-family: 'Eagle Lake', cursive;
+  color: #272e4f; 
+}
+p{
+  font-family: 'Space Mono', monospace;
+  color: #272e4f; 
+}
+ul{
+  text-decoration: none;
+  list-style: none;
+  color: #272e4f; 
+}
 .App-header {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  color: white;
+  color: #272e4f; 
   padding: 30px 30px;
 }
 
@@ -33,6 +45,7 @@
   border: 1px solid black;
   margin-bottom: 10px;
   max-width: 1000px;
+  box-shadow: 10px 10px 20px rgba(57, 56, 56, 0.2);
 }
 @keyframes App-logo-spin {
   from {
@@ -41,4 +54,64 @@
   to {
     transform: rotate(360deg);
   }
+}
+body{
+  background: white;
+  background-image: url(./images/marble.jpg);
+}
+.card{
+  background:white;
+  background-image: url(./images/marble.jpg);
+}
+footer{
+  font-size: 18px;
+  font-family: 'Gaegu', cursive;
+  font-weight: bold;
+}
+footer a{
+  text-decoration: none;
+  color:#272e4f; 
+}
+footer a:hover{
+  color:#c70039; 
+}
+section{
+  padding:20px;
+  border-radius: 7px;
+  border: 1px solid black;
+  box-shadow: 10px 10px 20px rgba(57, 56, 56, 0.2);
+  margin: 10px 0;
+  background-image: url(./images/paper.jpg);
+}
+input{
+  width: 100%;
+  padding:5px 4px;
+  border: 0,7px solid black;
+  border-radius: 4px;
+  color:#c70039; 
+  text-align: center;
+}
+h2{
+  font-family: 'Homemade Apple', cursive;
+  font-size: 36px;
+  background: url(./images/school.jpg);
+  padding: 20px 10px;
+  margin: 40px 130px;
+  border-radius: 10px;
+  border: 1px solid rgb(180, 180, 180);
+  box-shadow: 10px 10px 20px rgba(57, 56, 56, 0.2);
+  color: #c70039 ;
+} h3{
+  font-family: 'Homemade Apple', cursive;
+  color: #272e4f; ;
+}
+a{
+  text-decoration: none;
+  color:#272e4f; 
+}
+a:hover{
+  color:#c70039;
+}
+.Phonetics{
+ font-size: 25px;
 }
