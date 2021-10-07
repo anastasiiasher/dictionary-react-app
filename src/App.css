@@ -86,7 +86,7 @@ section{
 input{
   width: 100%;
   padding:5px 4px;
-  border: 0,7px solid black;
+  border: 1px solid black;
   border-radius: 4px;
   color:#c70039; 
   text-align: center;
@@ -98,9 +98,10 @@ h2{
   padding: 20px 10px;
   margin: 40px 130px;
   border-radius: 10px;
-  border: 1px solid rgb(180, 180, 180);
+  border: 1px solid #ddd;
   box-shadow: 10px 10px 20px rgba(57, 56, 56, 0.2);
   color: #c70039 ;
+  text-transform: capitalize;
 } h3{
   font-family: 'Homemade Apple', cursive;
   color: #272e4f; ;
@@ -114,4 +115,25 @@ a:hover{
 }
 .Phonetics{
  font-size: 25px;
+}
+.Phonetics a{
+  border-radius: 20px;
+  padding: 5px 13px;
+  text-decoration: none;
+  border: 1px solid #ddd;
+  background-color: #EFEFEF;
+  margin: 0 auto;
+  font-size: 22px;
+}
+.Phonetics a:hover{
+  background-color: aliceblue;
+  transition: all 150ms ease-in-out;
+  font-size: 25px;
+}
+li{
+  display: inline-block;
+  padding-right: 15px;
+  font-family:'Gaegu';
+  font-size: 25px;
+  font-weight:400;
 }

@@ -8,8 +8,8 @@ function App() {
         <header>
           <h1 className="mt-5 mb-5"> Dictionary App</h1>
         </header>
-        <main >
-          <Dictionary />
+        <main>
+          <Dictionary defaultKeyword="code" />
         </main>
       </div>
       <footer>
